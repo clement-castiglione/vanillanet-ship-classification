@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# Data, weights and outputs (too large / not redistributable)
+dataset/
+data/
+checkpoints/
+runs/
+*.pt
+*.pth
+*.npz
+*.npy
+submissions/
+*.csv
+
+# OS / editors
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
